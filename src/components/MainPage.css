@@ -1,0 +1,148 @@
+.mainpage-container{
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding:20px;
+
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+h3{
+  font-size: x-large;
+  font-weight: 500;
+}
+
+b{
+  color: #0096FF;
+
+}
+
+.left-container{
+  background-color: rgb(30, 30, 32);
+  color: white;
+  margin-right: 20px;
+  padding: 2%;
+  height: max-content;  
+}
+
+.icon{
+  height: 5%;
+  width: 5%;
+  margin-right: 30px;
+}
+
+.right-container{
+  background-color: white;
+  color: black;
+  text-align: center;
+  height: max-content;
+  width: auto;
+  padding: 3%;
+  border-radius: 8px;
+}
+
+.decide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.decide-todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(106, 106, 243);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.circle span {
+  margin-top: -3px;
+}
+
+.circle-text {
+  margin-top: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card {
+  /* padding: 20px; */
+  width: 400px;
+}
+
+.offer-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.subscription-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.offer-details{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid orangered;
+  text-align: start;
+}
+
+.time-limit{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.total-amnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.process-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btns{
+  width: 45%;
+  height: 50px;
+}
+
+.upi-logo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.logo-img{
+  height: 35px;
+  width: 25%;
+}
