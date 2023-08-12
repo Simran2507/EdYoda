@@ -1,28 +1,43 @@
 
+
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 8%;
-    height: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:10px;
+  height: 50px;
+  background: #FFFFFF;
+  padding: 30px 80px 30px 80px;
+  margin-bottom: 5%;
 }
 
 .logo{
-    height: 80%;
-    width: 25%;
+  width: 158px;
+  height: 45px;  
 }
 
 .top-left {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .select-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border:none;
+}
+
+.choose {
+  text-decoration: none;
+  border: none; 
+  background-color: transparent; 
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none;
+  outline: none; 
 }
 
 .top-right {
@@ -30,7 +45,6 @@
   flex-direction: row;
   align-items: center;
   gap: 50px;
-  color: white;
 }
 
 .choose{
